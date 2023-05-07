@@ -12,5 +12,5 @@ app.use(cors())
 app.use(express.urlencoded({ extended: true }));
 app.use('/app', express.static (path.join (__dirname, '/public')))
 
-let port = process.env.PORT || 3000
+let port = process.env.PORT || 3001
 app.listen (port)
